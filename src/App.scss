@@ -1,9 +1,16 @@
 @import "styles/abstracts/variables";
 @import "styles/abstracts/mixins";
 
+@import "styles/base/animations";
 @import "styles/base/base";
+@import "styles/base/typography";
 
 @import "styles/components/navbar.scss";
+@import "styles/components/downarrow";
 
+@import "styles/layout/about";
 @import "styles/layout/header";
+@import "styles/layout/projects";
+@import "styles/layout/particles";
 
+@import "styles/pages/home";

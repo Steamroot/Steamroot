@@ -1,0 +1,18 @@
+.down-arrow {
+    height: 6rem;
+    width: 15rem;
+    background-color: $primary-color;
+    clip-path: polygon(50% 70%, 85% 40%, 100% 40%, 50% 85%, 0 40%, 15% 40%);
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0);
+    opacity: .2;
+    animation: bounce 2s infinite;
+    transition: .6s;
+
+    &:hover {
+        opacity: 1 !important;
+    }
+
+}
+

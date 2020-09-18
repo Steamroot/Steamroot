@@ -1,0 +1,22 @@
+@import "../abstracts/variables";
+
+.title {
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+    font-family: 'Special Elite', monospace;
+    font-size: 4rem;
+    width: auto;
+    text-align: left;
+    color: $primary-color;
+}
+
+.projects__title {
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Special Elite', monospace;
+    font-size: 4rem;
+    color: $light-background-color;
+    letter-spacing: .3rem;
+}

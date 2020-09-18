@@ -6,8 +6,9 @@ import '../Styles/abstracts/_variables.scss';
 
 class Particle extends Component {
     render () {
+
         return (
-            <Particles id="tsparticles"
+            <Particles id="particles" className="tsparticles"
             options={{
               fpsLimit: 60,
               interactivity: {
@@ -26,7 +27,7 @@ class Particle extends Component {
               },
               particles: {
                 color: {
-                  value: "#030bfc",
+                  value: "#0D1946",
                 },
                 links: {
                   color: "#b0b0b0",
@@ -61,7 +62,7 @@ class Particle extends Component {
                 },
                 size: {
                   random: true,
-                  value: 5,
+                  value: 6,
                 },
               },
               detectRetina: true,
